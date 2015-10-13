@@ -1,9 +1,12 @@
 body {
-	background-color: white;
-	/*Typography Declaratons*/
-	color: #222222;
-	font-size: 1em;
-	font-family: "Helvetica Neue";
+  /*Typography declarations*/
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.intro, .heading, .footer {
+  text-align: center;
 }
 
 .masthead-heading,
@@ -13,26 +16,29 @@ body {
  }
 
 .masthead {
-	padding: 15em 0;
- 	background-image: url('oahu.jpg');
+	padding: 10em 0;
+ 	background-image: url('beach.jpg');
  	background-repeat: no-repeat;
  	background-size: cover;
- 	border-top: solid 10px white;
+ 	border-top: solid 1em white;
+ 	background-position: 0 45%;
  }
 
 .masthead-intro {
  	margin-bottom: 0.1em;
- 	font-family: "Gentium Book Basic";
+ 	font-family: "Gentium Book Basic", Georgia, serif;
  	font-size: 2em;
+ 	color: white;
  }
 
 .masthead-heading {
  	margin-top: -0.2em;
- 	font-family: "Helvetica Neue";
+ 	font-family: "Times New Roman", Times, serif;
  	font-weight: bold;
  	font-size: 6em;
  	letter-spacing: -0.02em;
  	text-transform: uppercase;
+ 	color: white;
  }
 
 .content-footer,
