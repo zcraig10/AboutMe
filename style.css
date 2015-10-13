@@ -20,7 +20,7 @@ body {
  	background-image: url('beach.jpg');
  	background-repeat: no-repeat;
  	background-size: cover;
- 	border-top: solid 1em white;
+ 	border-top: solid 1em #66FFFF;
  	background-position: 0 45%;
  }
 
@@ -41,7 +41,6 @@ body {
  	color: white;
  }
 
-.content-footer,
 .introduction-section,
 .location-section,
 .questions-section {
