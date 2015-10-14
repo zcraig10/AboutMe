@@ -1,9 +1,20 @@
 body {
+<<<<<<< HEAD
 	background-color: white;
 	/*Typography Declaratons*/
 	color: #222222;
 	font-size: 1em;
 	font-family: "Helvetica Neue";
+=======
+  /*Typography declarations*/
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.intro, .heading, .footer {
+  text-align: center;
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
 }
 
 .masthead-heading,
@@ -13,29 +24,54 @@ body {
  }
 
 .masthead {
+<<<<<<< HEAD
 	padding: 15em 0;
  	background-image: url('oahu.jpg');
  	background-repeat: no-repeat;
  	background-size: cover;
  	border-top: solid 10px white;
+=======
+	padding: 10em 0;
+ 	background-image: url('beach.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	border-top: solid 1em #66FFFF;
+ 	background-position: 0 45%;
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
  }
 
 .masthead-intro {
  	margin-bottom: 0.1em;
+<<<<<<< HEAD
  	font-family: "Gentium Book Basic";
  	font-size: 2em;
+=======
+ 	font-family: "Gentium Book Basic", Georgia, serif;
+ 	font-size: 2em;
+ 	color: white;
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
  }
 
 .masthead-heading {
  	margin-top: -0.2em;
+<<<<<<< HEAD
  	font-family: "Helvetica Neue";
+=======
+ 	font-family: "Times New Roman", Times, serif;
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
  	font-weight: bold;
  	font-size: 6em;
  	letter-spacing: -0.02em;
  	text-transform: uppercase;
+<<<<<<< HEAD
  }
 
 .content-footer,
+=======
+ 	color: white;
+ }
+
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
 .introduction-section,
 .location-section,
 .questions-section {
@@ -59,6 +95,10 @@ body {
 
 .questions-section > h2 {
 	/*Typograhy Declarations */
+<<<<<<< HEAD
+=======
+	color: #B20000;
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
 	font-family: "Gentium Book Basic", Georgia, serif;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -71,6 +111,44 @@ section > h1 {
 }
 
 .content-footer {
+<<<<<<< HEAD
 	background-color: #FCCD17;
 }
 
+=======
+	background-color: #A8A8A8;
+	margin-top: 5em;
+	padding: 4em 0;
+	color: white;
+}
+
+ul > li {
+	padding-right: 1em;
+}
+
+a {
+	color: #FFCC00;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.footer_image {
+	padding-left: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+	.masthead {
+		padding: 3em 0;
+	}
+
+	.masthead-heading {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.content-footer {
+		padding: 0 2em;
+	}
+}
+>>>>>>> 669462931a07fc632d183de6cb2475b85aa998dc
