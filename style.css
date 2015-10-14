@@ -1,3 +1,4 @@
+  body {
   /*Typography declarations*/
   color: #222222;
   font-size: 1em;
@@ -21,23 +22,22 @@
  	background-size: cover;
  	border-top: solid 1em #66FFFF;
  	background-position: 0 45%;
+ 	color: black;
  }
 
 .masthead-intro {
  	margin-bottom: 0.1em;
  	font-family: "Gentium Book Basic", Georgia, serif;
- 	font-size: 2em;
- 	color: white;
+ 	font-size: 3em;
  }
 
 .masthead-heading {
  	margin-top: -0.2em;
  	font-family: "Times New Roman", Times, serif;
  	font-weight: bold;
- 	font-size: 6em;
+ 	font-size: 7em;
  	letter-spacing: -0.02em;
  	text-transform: uppercase;
- 	color: white;
  }
 
 .introduction-section,
