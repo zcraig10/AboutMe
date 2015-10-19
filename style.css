@@ -111,3 +111,11 @@ a {
 		padding: 0 2em;
 	}
 }
+
+.projects a {
+	color: red;
+}
+
+.projects a:hover {
+	color: blue;
+}
