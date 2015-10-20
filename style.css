@@ -113,9 +113,9 @@ a {
 }
 
 .projects a {
-	color: red;
+	color: black;
 }
 
 .projects a:hover {
-	color: blue;
+	color: red;
 }
