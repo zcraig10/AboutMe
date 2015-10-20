@@ -113,17 +113,9 @@ a {
 }
 
 .projects a {
-<<<<<<< HEAD
-	color: red;
-}
-
-.projects a:hover {
-	color: blue;
-=======
 	color: black;
 }
 
 .projects a:hover {
 	color: red;
->>>>>>> fb7dc19c4bb35878dfbe30ed81b877727e11c932
 }
